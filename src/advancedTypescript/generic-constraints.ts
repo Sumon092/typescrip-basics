@@ -49,5 +49,5 @@ const addMeInMyCrushMind = <T extends { name: string, age: number, salary: numbe
     // typescript define type before compile so, during this time we can use generic to infer type. 
 }
 const result6 = addMeInMyCrushMind(myInfo);
-result6.
+
 
