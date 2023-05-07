@@ -2,7 +2,7 @@
 interface CrushInterface<T, U = null> {
     name: string,
     husband: T;
-    wife?: U
+    wife?: U 
 }
 const crush1: CrushInterface<boolean, string> = {
     name: 'Kate Winslet',
